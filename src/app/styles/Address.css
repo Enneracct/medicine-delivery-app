@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.delivery-form {@apply flex flex-col bg-zinc-100 items-center w-2/3 flex-1 justify-center h-[512px] shadow-md m-10}
+ 
+.delivery-form input, textarea {@apply bg-zinc-100 mt-1 p-2 block w-full text-sm outline-none border-b-2 border-emerald-600}

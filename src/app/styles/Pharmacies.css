@@ -1,0 +1,9 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.pharmacies-container{@apply flex flex-col justify-between flex-initial w-40 bg-gradient-to-b from-emerald-400 to-emerald-500 text-white text-sm }
+
+.pharmacies{@apply flex flex-col mt-14 px-2 items-center}
+
+.pharmacies button{@apply w-full py-5}

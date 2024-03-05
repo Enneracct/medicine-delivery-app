@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.cart-container {@apply grid grid-cols-2 xl:grid-cols-3 gap-3 place-items-center items-center bg-zinc-100 overflow-y-auto px-6 h-[512px] max-h-lvh shadow-md}
+
+.cart-item{@apply my-3 bg-slate-50 p-4 rounded-2xl shadow-md}
+
+.cart-item h3{@apply font-bold text-center mb-2}
+
+.cart-item button{@apply bg-emerald-500 active:bg-emerald-600 mt-2 py-1 w-full rounded-2xl text-white}
